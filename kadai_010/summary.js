@@ -10,11 +10,9 @@ $(function() {
     //フェードアウト
     $('#fade-out').on('click',function(){
         $('#target').fadeOut();
-        //$('#target').css('opacity',0)
     });
     //フェードアイン
     $('#fade-in').on('click',function(){
         $('#target').fadeIn();
-        //$('#target').css('opacity',1)
     });
 });
